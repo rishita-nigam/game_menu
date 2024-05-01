@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="ttt.css">
+</head>
+<body>
+<div class="container">
+    <h1>Tic Tac Toe</h1>
+    <div>
+        <input type="radio" id="friend" name="mode" checked>
+        <label for="friend">Play with Friend</label>
+        <input type="radio" id="computer" name="mode">
+        <label for="computer">Play with Computer</label>
+    </div>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="message" id="message"></div>
+    <button class="reset" id="reset">Reset Game</button>
+</div>
+
+<script src="ttt.js"></script>
+</body>
+</html>

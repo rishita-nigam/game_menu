@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Game Menu!</h1>
+        <div class="game-list">
+            <div class="game" onclick="goToGame('tic_tac_toe.html')">
+                <img src="tic_tac_toe.png" alt="Tic Tac Toe">
+                <p>Tic Tac Toe</p>
+            </div>
+            <div class="game" onclick="goToGame('snake_and_ladders.html')">
+                <img src="snake_and_ladders.jpeg" alt="Snake and Ladders">
+                <p>Snake and Ladders</p>
+            </div>
+            <div class="game" onclick="goToGame('snake_xenzia.html')">
+                <img src="snake_xenzia.jpeg" alt="Snake Xenzia">
+                <p>Snake Xenzia</p>
+            </div>
+            <div class="game" onclick="goToGame('rock_paper_scissors.html')">
+                <img src="rock_paper_scissors.png" alt="Rock Paper Scissors">
+                <p>Rock Paper Scissors</p>
+            </div>
+        </div>
+    </div>
+    <script>
+    function goToGame(url) {
+        window.location.href = url;
+        }
+    </script>
+</body>
+</html>
